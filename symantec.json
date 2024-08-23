@@ -2,7 +2,7 @@
   "name": "Symantec_EDR_DenyList",
   "version": "1.0",
   "author": "aliessassi",
-  "url" : "https://github.com/AliEssassi/symantec_responder",
+  "url" : "https://github.com/lmvd/Responder",
   "description": "Responder to deny list an IOC using Symantec EDR API",
   "dataTypeList": ["ip", "domain", "url"],
   "baseConfig" : "Symantec_EDR_DenyList",
