@@ -1,0 +1,25 @@
+{
+  "name": "Symantec_EDR_DenyList",
+  "version": "1.0",
+  "author": "aliessassi",
+  "url" : "https://github.com/AliEssassi/symantec_responder",
+  "description": "Responder to deny list an IOC using Symantec EDR API",
+  "dataTypeList": ["ip", "domain", "url"],
+  "baseConfig" : "Symantec_EDR_DenyList",
+  "command": "symantec.py",
+  "configurationItems": [
+    {
+      "name": "key",
+      "description": "API key for Symantec EDR",
+      "type": "string",
+      "multi": false,
+      "required": true
+    }
+  ],
+  "config": {
+    "check_tlp": true,
+    "max_tlp": 2,
+    "auto_extract": false
+  }
+
+}
